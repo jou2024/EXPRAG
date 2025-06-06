@@ -1,0 +1,11 @@
+llm: "4o"
+
+dataset: "Benchmark"
+num_questions: 1
+notes: "test"
+
+paths:
+  mimic4_database_file: "/../../DataSets/mimic-iv/mimic4.db"
+  note_database_file: "/../../DataSets/mimic-iv/mimic4-note.db"
+  prompt_file_generate_question: "/../data/processed/our_benchmark_prompt/prompt_generate_init_QA.txt"
+  prompt_file_filter_context: "/../data/processed/our_benchmark_prompt/prompt_filter_instruction.txt"

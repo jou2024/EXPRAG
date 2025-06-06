@@ -1,0 +1,66 @@
+Task:
+You are evaluating a discharge or follow-up instruction.
+Your task is to assess whether the instruction is sufficient or inadequate based on the following criteria and return your evaluation in JSON format.
+
+Evaluation Criteria:
+1. If the instruction content is empty (e.g., "Follow-up instruction: ___"), mark it as "Fail."
+2. A good instruction must include at least one of both:
+    - What the patient should do ("what to do").
+    - Warning signs that require contacting a doctor ("warning signs").
+3. A common poor instruction only describes "what happened" without providing actionable steps ("what to do") or warnings ("warning signs").
+4. If the instruction includes both "what happened" and "what to do"/"warning signs":
+    - Identify and extract the points related to "what to do" and/or "warning signs."
+    - List these points in the "selected_content" field in your JSON output.
+5. For each point in "what to do" and "warning signs":
+    - If there is only 1 point, or it is too general without useful information, mark it as "Fail."
+    - For each point, provide:
+        (1) A concise summary (few words).
+        (2) A list of equivalent or closely related keywords.
+        (3) The original sentence (if clear), or a rewritten instruction.
+
+Ensure:
+Split complex points into simple, concise points so that each can be represented by selecting 1 or at most 2 keywords from a list of equivalent terms(list of keywords).
+Example 1 "sentence": "Your skin, or the whites of your eyes become yellow.", I cannot use "skin" or "eyes" as key word to represent the point. So this point should be split to 2 points like below:
+    {
+        "summary": "Skin turns yellow",
+        "keywords": ["yellow skin", "jaundice"],
+        "sentence": "Your skin becomes yellow."
+    },
+    {
+        "summary": "Eyes turn yellow",
+        "keywords": ["yellow eyes", "whites of eyes yellow", "jaundice"],
+        "sentence": "The whites of your eyes become yellow."
+    }
+Example 2 "sentence": "You must continue to wear the clamshell brace when out of bed at all times.". It should be split to 2 points "wear the clamshell brace" and "wear the clamshell brace when out of bed at all times"
+
+Here is the context:
+---context starts---
+{context}
+---context ends---
+
+
+Provide your evaluation in JSON format, as shown below:
+{
+  "reason": <Explanation for your decision>,
+  "evaluation": <Pass, Fail, or Select>,
+  "selected_content": <If "Select", include relevant points; otherwise, leave empty>,
+  "points": {
+    "what_to_do": [
+      {
+        "summary": <A few words summarizing the action>,
+        "keywords": [<List of equivalent keywords>],
+        "sentence": <The instruction sentence>
+      }
+      ...
+    ],
+    "warning_signs": [
+      {
+        "summary": <A few words summarizing the warning sign>,
+        "keywords": [<List of equivalent keywords>],
+        "sentence": <The warning sentence>
+      }
+      ...
+    ]
+  }
+}
+

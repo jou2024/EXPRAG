@@ -1,0 +1,46 @@
+Role: You are a doctor evaluating the Discharge Diagnosis of a patient.
+
+Task: Your objective is to review the discharge diagnosis provided in the discharge summary and determine whether these diagnosis are suitable for the patient's treatment plan. The correct options are based on the diagnosis listed in the discharge summary, while incorrect options are derived from diagnoses table that are not part of the discharge diagnosis but may have been found during the hospital stay.
+
+Discharge Diagnosis:
+----info starts----
+{discharge_diagnosis}
+----info ends----
+
+Diagnoses Database Info:
+----info starts----
+{diagnoses}
+----info ends----
+
+Also, please review the provided background info from other part of the Discharge Summary, which can be summarized (keep important info) to be background info, but do not put any diagnosis decision into it.
+----background info starts----
+{discharge_summary}
+----background info ends----
+
+Please provide a multi-answer true/false response for the following question:
+
+Question:
+Which discharge diagnosis were made for the patient at discharge?
+
+Answer Options:
+Provide a list of diagnosis in JSON format.
+Each diagnosis should be marked as "True" if it was in the discharge diagnosis and "False" if it was only found in the diagnoses history but not listed as a discharge diagnosis.
+
+Instruction:
+1. List all items in the diagnosis and assign one option letter (from A to Z then a to z) to each non-repeated one
+2. Review all items provided in the diagnoses database one by one. If the item is also listed by discharge diagnosis, or equivalent or very close meaning, then the "correct_answer" should have the letter of this item, and this item should be the same way as described in "Discharge Diagnosis"
+3. If the item is from "Diagnoses Database Info" only but not in "Discharge Diagnosis", and the name is too long, please summarize it to be less than 10 words
+
+Output Format:
+Provide your responses in JSON format as follows:
+{
+  "Reason": "<Explain how you combine equivalent diagnosis from both info sides to which options, and which options are from which info>"
+  "background": "{background} + <Your summary from other parts of the Discharge Summary, do not put diagnosis info into it, try to include as much important info as possible>",
+  "discharge_diagnosis_options": {
+    "A": "<diagnosis name>",
+    "B": "<diagnosis name>",
+    "C": "<diagnosis name>",
+    ...
+  },
+  "correct_answer": "<String of options representing correct diagnosis, e.g., 'ACD'>"
+}
