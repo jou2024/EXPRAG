@@ -1,0 +1,354 @@
+[
+    {
+        "background": "a 44 years old male with a history of recent STEMI and stent placement in the LAD. He experienced bilateral arm tightness and a feeling of uneasiness, but no chest pain or dyspnea. He was pain-free upon admission and wanted to go home. His past medical history includes CAD, dyslipidemia, and hypertension. Family history includes a father who died of PE from DVT and a brother with blood clot issues.",
+        "discharge_diagnosis_options": {
+            "A": "Pain in limb",
+            "B": "Acute myocardial infarction",
+            "C": "Hyperlipidemia",
+            "D": "Hypertension",
+            "E": "Percutaneous transluminal coronary angioplasty status",
+            "F": "Family history of ischemic heart disease",
+            "G": "CAD with previous stent placement",
+            "H": "Personal history of tobacco use"
+        },
+        "correct_answer": "GCD",
+        "hadm_id": "23071013",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 1
+    },
+    {
+        "background": "a pleasant female with a positive stress test, history of CKD due to DM type 2, hypertension, hyperlipidemia, obesity, and sarcoidosis. She was being evaluated for a renal transplant and underwent cardiac catheterization. She reported increased fatigue and shortness of breath.",
+        "discharge_diagnosis_options": {
+            "A": "Diabetes with renal manifestations",
+            "B": "Other primary cardiomyopathies",
+            "C": "Coronary artery disease",
+            "D": "End stage renal disease",
+            "E": "Coronary atherosclerosis",
+            "F": "Hyperkalemia",
+            "G": "Long-term insulin use",
+            "H": "Extrinsic asthma",
+            "I": "Hypertensive CKD with stage V",
+            "J": "Other hyperlipidemia",
+            "K": "Tobacco use disorder",
+            "L": "Asthma",
+            "M": "Morbid obesity",
+            "N": "Chronic kidney disease"
+        },
+        "correct_answer": "CNFL",
+        "hadm_id": "24643242",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 2
+    },
+    {
+        "background": "a 48 years old male with a history of hypertension, dyslipidemia, and family history of early coronary artery disease who presents with chest pain. The patient experienced progressive chest pain over two months, associated with shortness of breath, and underwent a stress test revealing downsloping ST depressions. He was treated with ASA, plavix, and heparin, and transferred for catheterization. Currently chest pain free but slightly anxious.",
+        "discharge_diagnosis_options": {
+            "A": "Chronic total occlusion of coronary artery",
+            "B": "Coronary atherosclerosis of native coronary artery",
+            "C": "Subendocardial infarction, initial episode of care",
+            "D": "CAD",
+            "E": "Examination of participant in clinical trial",
+            "F": "NSTEMI s/p placement of DES to LCx",
+            "G": "HL",
+            "H": "Other and unspecified hyperlipidemia",
+            "I": "Unspecified essential hypertension",
+            "J": "Unspecified acquired hypothyroidism",
+            "K": "Hypothyroidism"
+        },
+        "correct_answer": "FDGK",
+        "hadm_id": "28312622",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 3
+    },
+    {
+        "background": "a woman with bilateral claudication, previous diagnostic angio showing right SFA lesion, 4 cm occlusion of left SFA treated with percutaneous intervention, past medical history includes HBV, HLD, HTN, arthritis, DM2, CRI, fibroids s/p hysterectomy, and surgeries including knee, hysterectomy, and foot.",
+        "discharge_diagnosis_options": {
+            "A": "Chronic kidney disease",
+            "B": "Hypertensive chronic kidney disease",
+            "C": "Peripheral Arterial Disease",
+            "D": "Diabetes"
+        },
+        "correct_answer": "CD",
+        "hadm_id": "25691427",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 4
+    },
+    {
+        "background": "a ___ year-old female with a PMH of HTN, hyperlipidemia, hyperglycemia, fibromyalgia who presents s/p cath for inferior STEMI. She had an 80% stenosis at the bifurcation of the LAD and OM and a 90% lesion to the mid RCA which was stented. She feels well without complaints currently.",
+        "discharge_diagnosis_options": {
+            "A": "hyperlipidemia",
+            "B": "hypertension",
+            "C": "bilateral cataracts s/p surgery",
+            "D": "Coronary atherosclerosis",
+            "E": "depression",
+            "F": "fibromyalgia",
+            "G": "spinal stenosis",
+            "H": "Myalgia and myositis",
+            "I": "hx of labrynthitis",
+            "J": "Acute myocardial infarction",
+            "K": "chronic pain syndrome",
+            "L": "Other and unspecified hyperlipidemia",
+            "M": "hyperglycemia/borderline diabetes",
+            "N": "Unspecified essential hypertension"
+        },
+        "correct_answer": "ABMFGKECI",
+        "hadm_id": "20447626",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 5
+    },
+    {
+        "background": "a male with a history of GERD, hiatal hernia, and CAD, presenting with 3 weeks of intermittent chest pain and worsening epigastric pain. The patient experienced a sharp pain over the left chest, radiating to the jaw, with associated symptoms of lightheadedness, nausea, and mild shortness of breath. The patient has a history of hypertension, hypercholesterolemia, and depression, and has been taking Omeprazole for over a year.",
+        "discharge_diagnosis_options": {
+            "A": "Hypertension",
+            "B": "Depression",
+            "C": "Hiatal Hernia",
+            "D": "GERD",
+            "E": "Epigastric pain",
+            "F": "Coronary atherosclerosis",
+            "G": "H/o inferior hypokinesis in absence of flow limiting disease",
+            "H": "Other and unspecified hyperlipidemia",
+            "I": "Atypical chest pain"
+        },
+        "correct_answer": "CEDIABG",
+        "hadm_id": "28313326",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 6
+    },
+    {
+        "background": "A female diagnosed with ductal carcinoma in situ of the right breast, initially presented with a palpable mass. She underwent a wire-localized right partial mastectomy and later opted for a right therapeutic mastectomy and a left risk-reducing mastectomy. Family history includes breast cancer in a great aunt and heart disease.",
+        "discharge_diagnosis_options": {
+            "A": "Breast Cancer",
+            "B": "Personal history of malignant neoplasm of breast",
+            "C": "Carcinoma in situ of breast",
+            "D": "Retention of urine",
+            "E": "Nausea alone",
+            "F": "Estrogen receptor positive status"
+        },
+        "correct_answer": "A",
+        "hadm_id": "26215624",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 7
+    },
+    {
+        "background": "a 59 years old male with a history of MI and CABG, who experienced a syncopal event after a carotid ultrasound. The patient reported dizziness and spinning sensations for a week, especially when moving his head. Initial high blood pressure was managed with nitropaste. Cardiac enzymes, chest x-ray, and CT head were negative. Physical examination showed a regular cardiac rhythm, clear lungs, and some neurological findings such as a right facial droop and unsteady gait.",
+        "discharge_diagnosis_options": {
+            "A": "likely vasovagal syncope",
+            "B": "Old myocardial infarction",
+            "C": "Coronary atherosclerosis",
+            "D": "Aortocoronary bypass status",
+            "E": "Long-term use of aspirin",
+            "F": "Benign paroxysmal positional vertigo",
+            "G": "History of coronary artery disease",
+            "H": "Benign Positional Vertigo"
+        },
+        "correct_answer": "AHG",
+        "hadm_id": "29360736",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 8
+    },
+    {
+        "background": "The patient presents with nausea and lightheadedness, elevated LFTs, and a right upper quadrant ultrasound showing a ductal stone with dilatation. The patient denies fevers, abdominal pain, and diarrhea but reports a change in stool. The patient has a history of low back pain and has intentionally lost 50 lbs. Physical examination shows normal vital signs and no significant findings.",
+        "discharge_diagnosis_options": {
+            "A": "Choledocholithiasis",
+            "B": "Cholelithiasis",
+            "C": "Esophageal reflux",
+            "D": "Long-term medication use",
+            "E": "Gallbladder and bile duct calculus"
+        },
+        "correct_answer": "BA",
+        "hadm_id": "29361318",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 9
+    },
+    {
+        "background": "a healthy male who presents from OSH ED with multiple left foot fractures s/p fall from height around 1am. The patient states that after celebrating his birthday at a bar drinking he jumped a fence that turned out to be a ~10 foot drop onto a cement stairwell. He has been unable to bear weight since. He was escorted home and was shortly brought to his local ED due to severe left foot pain. Pt was given ~16mg of morphine and multiple x-rays/ct scans were performed. He was noted to have multiple fractures in his left foot, including metatarsal, medial cuneiform, and bases of several metatarsals. Fractures of other parts of his body ie ribs, spine, knee, ankle were ruled out prior to transfer. He was transferred for podiatry evaluation.",
+        "discharge_diagnosis_options": {
+            "A": "Other accidental fall",
+            "B": "Left foot fractures",
+            "C": "Closed fracture of cuneiform, foot",
+            "D": "Closed fracture of metatarsal bone(s)"
+        },
+        "correct_answer": "BCD",
+        "hadm_id": "21496248",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 10
+    },
+    {
+        "background": "A male with a history of coronary artery disease, experienced chest pain similar to previous GERD symptoms, resolved with nitropaste. He was transferred for further evaluation and treatment.",
+        "discharge_diagnosis_options": {
+            "A": "Chronic Renal Insufficiency",
+            "B": "Coronary atherosclerosis of native coronary artery",
+            "C": "Intermediate coronary syndrome",
+            "D": "Esophageal reflux",
+            "E": "Other and unspecified hyperlipidemia",
+            "F": "Hyperlipidemia",
+            "G": "Unspecified essential hypertension",
+            "H": "Mitral valve disorders",
+            "I": "Hypertension",
+            "J": "Coronary artery disease status post Cypher stent to Left Anterior Descending artery",
+            "K": "Hypertrophy of prostate without urinary obstruction"
+        },
+        "correct_answer": "JIFA",
+        "hadm_id": "22546777",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 11
+    },
+    {
+        "background": "a 84 years old male with a history of chest pain, multiple percutaneous coronary interventions, and family history of myocardial infarction. He presented with acute chest pressure, relieved by morphine and nitro paste, and was started on heparin. Physical examination showed no significant abnormalities.",
+        "discharge_diagnosis_options": {
+            "A": "Chronic kidney disease, stage 3",
+            "B": "Peripheral vascular disease, unspecified",
+            "C": "Coronary atherosclerosis of native coronary artery",
+            "D": "Chronic obstructive pulmonary disease",
+            "E": "Surgical operation complication",
+            "F": "Hypertension",
+            "G": "Peripheral arterial disease",
+            "H": "Chronic diastolic heart failure",
+            "I": "Hypertensive chronic kidney disease",
+            "J": "Intermediate coronary syndrome",
+            "K": "Recent myocardial infarction",
+            "L": "Coronary artery disease",
+            "M": "Other and unspecified hyperlipidemia",
+            "N": "Chronic airway obstruction",
+            "O": "Esophageal diverticulum",
+            "P": "Percutaneous transluminal coronary angioplasty status",
+            "Q": "Barrett's esophagus",
+            "R": "Mechanical complication of cardiac device",
+            "S": "In-stent restenosis",
+            "T": "Subendocardial infarction",
+            "U": "Hyperlipidemia",
+            "V": "Chronic kidney disease, unspecified",
+            "W": "Chronic left ventricular diastolic heart failure",
+            "X": "Personal history of tobacco use",
+            "Y": "Congestive heart failure, unspecified"
+        },
+        "correct_answer": "LKSOFUDAGW",
+        "hadm_id": "22544427",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 12
+    },
+    {
+        "background": "a 32 years old female with a history of acute onset epigastric pain, nausea, and shortness of breath. She was transferred for high-risk OB care after being evaluated for severe preeclampsia/HELLP. Her symptoms resolved upon arrival, and she was comfortable overall. She has a past medical history of spinal surgery for scoliosis and ankle surgery.",
+        "discharge_diagnosis_options": {
+            "A": "Severe pre-eclampsia, delivered, with or without mention of antepartum condition",
+            "B": "Other nonspecific abnormal serum enzyme levels",
+            "C": "Early onset of delivery, delivered",
+            "D": "Outcome of delivery, single liveborn",
+            "E": "Arthrodesis status"
+        },
+        "correct_answer": "A",
+        "hadm_id": "20972415",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 13
+    },
+    {
+        "background": "a 67 years old male with a history of CAD, previous MIs, and a recent persantine stress test. He experienced chest pain similar to his angina, which did not completely resolve with nitroglycerin and aspirin. He has a history of GERD, hyperlipidemia, and elevated blood glucose. He was transferred for further evaluation due to cath lab capability.",
+        "discharge_diagnosis_options": {
+            "A": "Coronary atherosclerosis",
+            "B": "Other abnormal glucose",
+            "C": "Old myocardial infarction",
+            "D": "Pain in limb",
+            "E": "Intermediate coronary syndrome",
+            "F": "Esophageal reflux",
+            "G": "Unstable angina",
+            "H": "GERD",
+            "I": "Other and unspecified hyperlipidemia",
+            "J": "Elevated blood glucose",
+            "K": "Hyperlipidemia",
+            "L": "Unspecified kidney disorder"
+        },
+        "correct_answer": "GKJH",
+        "hadm_id": "26740960",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 14
+    },
+    {
+        "background": "a year old man with neck and upper back pain due to a fall, and had no relief with oral medications. Past medical history includes diabetes, hyperlipidemia, hypertension, and GERD. Physical exam shows weakness of left wrist extension consistent with C6 radiculitis.",
+        "discharge_diagnosis_options": {
+            "A": "Esophageal reflux",
+            "B": "Other and unspecified hyperlipidemia",
+            "C": "Unspecified essential hypertension",
+            "D": "Left C5-C6 disc herniation",
+            "E": "Diabetes mellitus type II, not uncontrolled"
+        },
+        "correct_answer": "D",
+        "hadm_id": "26738819",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 15
+    },
+    {
+        "background": "a 65 years old male with DMII, hypertension, and hyperlipidemia presented with sudden abdominal pain, nausea, and diaphoresis. He had a high lipase and CBD dilation and was transferred for ERCP. He responded to IV dilaudid.",
+        "discharge_diagnosis_options": {
+            "A": "Pancreatitis",
+            "B": "Calculus of gallbladder",
+            "C": "Other hyperlipidemia",
+            "D": "Essential hypertension",
+            "E": "Cyst of pancreas",
+            "F": "Diabetes mellitus type II",
+            "G": "History of tobacco use"
+        },
+        "correct_answer": "A",
+        "hadm_id": "27787324",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 16
+    },
+    {
+        "background": "a very complex gentleman who underwent a laparoscopic sigmoid resection with a diverting ileostomy, complicated by necrosis of the colon. He had multiple surgeries for debridement and management of an open abdomen, healed wounds, and completed chemotherapy for colon cancer. Recent imaging showed no evidence of disease. He presents for reversal of his ileostomy.",
+        "discharge_diagnosis_options": {
+            "A": "Personal history of other malignant neoplasm of large intestine",
+            "B": "Peritoneal adhesions",
+            "C": "Intestinal Discontinuity s/p ileostomy reversal & partial left colectomy, end colostomy, parastomal hernia repair",
+            "D": "Encounter for attention to ileostomy"
+        },
+        "correct_answer": "C",
+        "hadm_id": "26739373",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 17
+    },
+    {
+        "background": "a male s/p two prior lumbar surgeries at L4-5 with recurrent disc herniation and history of recurrent lower extremity radicular symptoms. He was previously told he would be at risk for destabilization with further decompressive procedures without lumbar fusion. It was mutually agreed to move forward with PLIF L4-5 and he decreased his nicotine consumption.",
+        "discharge_diagnosis_options": {
+            "A": "Tobacco use disorder",
+            "B": "Displacement of lumbar intervertebral disc without myelopathy",
+            "C": "Recurrent disc herniation L4-5",
+            "D": "Chronic airway obstruction"
+        },
+        "correct_answer": "CB",
+        "hadm_id": "29361876",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 18
+    },
+    {
+        "background": "A woman with metastatic pancreatic cancer presents with obstructive jaundice. She underwent ERCP with sphincterotomy and had a metal stent placed. She has symptoms including weight loss, chills, anorexia, dry mouth, nausea, abdominal pain, constipation, urinary incontinence, and depression. Past medical history includes hydrocephalus, basal cell carcinoma, colonic polyps, colon cancer, spinal tumor, spinal laminectomies, brain tumor, appendectomy, hysterectomy, and hypertension.",
+        "discharge_diagnosis_options": {
+            "A": "Pancreatic cancer with biliary obstruction s/p ERCP with placement of a metal biliary stent",
+            "B": "Obstruction of bile duct",
+            "C": "Insomnia, unspecified",
+            "D": "Other and unspecified hyperlipidemia",
+            "E": "Unspecified essential hypertension",
+            "F": "Malignant neoplasm of head of pancreas",
+            "G": "Constipation"
+        },
+        "correct_answer": "AG",
+        "hadm_id": "22021057",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 19
+    },
+    {
+        "background": "A female with a history of asymptomatic left carotid artery stenosis, found to have 70% or greater stenosis on ultrasound, with past medical history including hyperlipidemia, hypertension, coronary artery bypass grafting in 2012, type 2 diabetes mellitus, and gastro-esophageal reflux disease.",
+        "discharge_diagnosis_options": {
+            "A": "Personal history of nicotine dependence",
+            "B": "Presence of aortocoronary bypass graft",
+            "C": "Occlusion and stenosis of left carotid artery",
+            "D": "carotid artery stenosis",
+            "E": "Atherosclerotic heart disease of native coronary artery",
+            "F": "Hyperlipidemia, unspecified",
+            "G": "Essential (primary) hypertension",
+            "H": "Type 2 diabetes mellitus without complications",
+            "I": "Gastro-esophageal reflux disease without esophagitis"
+        },
+        "correct_answer": "DC",
+        "hadm_id": "24642826",
+        "question": "Which diagnoses should be documented into the patient's discharge diagnosis?",
+        "index": 20
+    }
+]

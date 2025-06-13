@@ -4,6 +4,7 @@ This is the repository for publication "Experience Retrieval-Augmentation with E
 Datasets (3 QA tasks), embedding files for 320,000 patients summaries file will be uploaded to https://physionet.org/ as DischargeQA
 
 ## Logs
+Updated DEMO data and experiments main functions 
 Updated codes for embeddings generation. 
 Updated codes, filtered id data and similarity map, everything for generating our benchmark.
 
@@ -44,3 +45,13 @@ CSV_DB_PATH="<Your mimic-iv-note-deidentified-free-text-clinical-notes-2.2/note/
 ## Embeddings
 If you have prepared your DBs/CSVs: 
 Before your baseline please follow: Extract - Batch - Generate (test) in `src/utils/pure_generate_embeddings`
+
+## Run experiments
+**Note** only DEMO datasets (20 QA pairs for each task) are public
+**RAG: Doc/Text-Based EHR-Based**
+`cd src`
+`./run_vllm_rag.sh`
+
+**No-RAG: Direct-Ask**
+`cd src`
+`./run_vllm_direct_ask.sh`
