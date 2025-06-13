@@ -1,0 +1,19 @@
+Answer the question below and give me the solution of your choice.
+
+Background:{background}
+
+Question:{question}
+
+Choices:
+A: {A}
+B: {B}
+C: {C}
+D: {D}
+E: {E}
+
+Your solution should have only 2 parts: "ANSWER" and "REASON", and start from "REASON".
+The "REASON" part should be less than 50 words and be your reasoning process about why do you make that choice instead of copy the choice.
+Please follow the format strictly.
+
+"REASON": {Your reason here}
+"ANSWER": {Your choice (letter only) here}

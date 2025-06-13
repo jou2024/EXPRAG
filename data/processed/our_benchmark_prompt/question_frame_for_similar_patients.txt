@@ -1,0 +1,3 @@
+Please retrieve all relevant information as a summary from the EHR summary.
+
+Question:{question}

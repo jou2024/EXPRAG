@@ -1,0 +1,22 @@
+Answer a question for a target patient, who has background:
+{background}
+
+Question:{question}
+
+Choices:
+A: {A}
+B: {B}
+C: {C}
+D: {D}
+E: {E}
+
+You have some EHR data from other most similar patients as that patient.
+{knowledge}
+
+Your solution should have only 2 parts:  "REASON" and "ANSWER", and start from "REASON".
+The "REASON" part should be less than 50 words and be your reasoning process about why do you make that choice instead of copy the choice.
+The "ANSWER" part should be the option letters only. Do not include the medication name or words.
+Please follow the format strictly.
+
+"REASON": {Your reason here}
+"ANSWER": {Your choice (letters only) here}

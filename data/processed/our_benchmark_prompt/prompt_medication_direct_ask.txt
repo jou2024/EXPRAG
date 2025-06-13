@@ -1,0 +1,15 @@
+Answer the question below and give me the solution of your choice.
+
+Background:{background}
+
+Question:{question}
+
+{discharge_medications_options}
+
+Your solution should have only 2 parts:  "REASON" and "ANSWER", and start from "REASON".
+The "REASON" part should be less than 50 words and be your reasoning process about why do you make that choice instead of copy the choice.
+The "ANSWER" part should be the option letters only. Do not include the medication name or words.
+Please follow the format strictly.
+
+"REASON": {Your reason here}
+"ANSWER": {Your choice (letters only) here}

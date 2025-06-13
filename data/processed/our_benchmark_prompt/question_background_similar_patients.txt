@@ -1,0 +1,6 @@
+Please retrieve a summary from the EHR discharge note, including:
+
+1. Patient Summary:
+ - Pertinent Results: Key diagnostic findings relevant to the patient's diagnosis, treatment, or overall health.
+ - Brief Hospital Course: Major events, treatments, and outcomes during the hospital stay.
+2. Info to answer the question: {question}

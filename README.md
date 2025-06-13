@@ -1,10 +1,10 @@
 # EXPRAG 
 This is the repository for publication "Experience Retrieval-Augmentation with Electronic Health Records Enables Accurate Discharge QA"
  
-Datasets (3 QA tasks), embedding files for 320,000 patients summaries file will be uploaded to https://physionet.org/ as DischargeQA
+Datasets (3 QA tasks, 1280 QA pairs), embedding files for 320,000 patients summaries file will be uploaded to https://physionet.org/ as DischargeQA
 
 ## Logs
-Updated DEMO data and experiments main functions 
+Updated DEMO data, prompts, utils and experiments main functions 
 Updated codes for embeddings generation. 
 Updated codes, filtered id data and similarity map, everything for generating our benchmark.
 
@@ -55,3 +55,8 @@ Before your baseline please follow: Extract - Batch - Generate (test) in `src/ut
 **No-RAG: Direct-Ask**
 `cd src`
 `./run_vllm_direct_ask.sh`
+
+# Our benchmark: DischargeQA
+
+Only DEMO are ready in `data/generated*/`
+Full datasets are still under review
