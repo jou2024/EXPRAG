@@ -4,6 +4,7 @@ This is the repository for publication "Experience Retrieval-Augmentation with E
 Datasets (3 QA tasks), embedding files for 320,000 patients summaries file will be uploaded to https://physionet.org/ as DischargeQA
 
 ## Logs
+Updated codes for embeddings generation. 
 Updated codes, filtered id data and similarity map, everything for generating our benchmark.
 
 ## Setup
@@ -39,3 +40,7 @@ HF_TOKEN="<Your Huggingface token>"
 DB_PATH="<Your mimic4-note.db path>"
 CSV_DB_PATH="<Your mimic-iv-note-deidentified-free-text-clinical-notes-2.2/note/discharge.csv path>"
 ```
+
+## Embeddings
+If you have prepared your DBs/CSVs: 
+Before your baseline please follow: Extract - Batch - Generate (test) in `src/utils/pure_generate_embeddings`
